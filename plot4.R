@@ -2,6 +2,7 @@
 library(data.table)
 library(dplyr)
 
+## the zipped file was uncompressed and stored at a seperate folder
 ## load dataset using fread function from data.table
 dat <- fread("C:/R_scripts/course4 EDA/household_power_consumption.txt")
 
